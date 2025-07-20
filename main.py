@@ -32,3 +32,4 @@ if __name__ == '__main__':
 	main_program()
 
 # seeking more security? add another layer of vigenere cipher.
+# got feedbacks? send them to dung.nguyen@365.elmhurst.edu
