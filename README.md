@@ -1,1 +1,5 @@
-# steganography
+# Steganography Encryption and Decryption Tool
+❗ SPOILER ALERT: This project was completed as a part of the 2025 Hack the North Capture the Flag challenge. I strongly reccommend everyone to give it a try [here] (https://hackthenorth.com/).
+
+## About
+Steganography is the practice of representing information within another message or physical object, in such a manner that the presence of the concealed information would not be evident to an unsuspecting person's examination. In this project, I built a tool to encrypt and decrypt hidden messages in image files using the PIL library in Python. While similar tools have been created based on the technique of modifying Least Significant Bits (LSB) in an image's RGB values, my program adds another layer of security by incorporating a secret key that determine the rules of encryption and decryption. The idea was presented to me by the team behind Hack the North, to whom I want to send a massive thank you for creating the Capture the Flag challenge.
