@@ -2,7 +2,7 @@
 ❗❗❗ SPOILER ALERT: This project was completed as a part of the 2025 Hack the North Capture the Flag challenge. I strongly reccommend everyone to give it a try [here](https://hackthenorth.com/).
 
 ## About
-Image steganography is the technique of hiding a secret message within an ordinary picture. It works by subtly altering the Least Significant Bits (LSBs) of the image's pixel data, which are typically undetectable changes to the naked eye. In this project, I built a tool to encrypt and decrypt hidden messages in image files using the Pillow library in Python. While similar tools have been created based on the technique of modifying LSBs in an image's RGB values, my program adds another layer of security by incorporating a secret key that determine the rules of encryption and decryption. The idea was presented to me by the team behind Hack the North, to whom I want to send a massive thank you for creating the Capture the Flag challenge.
+Image steganography is the technique of hiding a secret message within an ordinary picture. It works by subtly altering the Least Significant Bits (LSBs) of the image's pixel data, which are typically undetectable changes to the naked eye. In this project, I built a tool to encrypt and decrypt hidden messages in image files using the Pillow library in Python. While similar tools have already been created, my program adds another layer of security by incorporating a secret key that determine the rules of encryption and decryption. The idea was presented to me by the team behind Hack the North, to whom I want to send a massive thank you for creating the Capture the Flag challenge.
 
 ## Features
 * **Image-based Steganography**: Embed and extract hidden messages within image files.
